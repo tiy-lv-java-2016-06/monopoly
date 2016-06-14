@@ -1,6 +1,6 @@
 # Monopoly Layout
 
-![boardpic](monopoly.jpg)
+![boardpic](Property.jpg)
 
 ## Fork Homework Repository
 
@@ -9,7 +9,7 @@ For each assignment in this class you will have a homework repository you should
 When you finish assignments you can submit a link to the corresponding repository in The Iron Yard Online (Tiyo).
 
 ## Instructions
-* Create 4 classes you might need for monopoly (implement the 3 below)
+* Create 4 classes you might need for Property (implement the 3 below)
 * Populate the classes with attributes
 * Make sure there are getters for the attributes
 * Use constructors for attributes that shouldn't change and setters for ones that do
@@ -35,11 +35,11 @@ Suggestions for classes:
 	* It should have a method called `roll`
 	* Using the [`Random` class](https://docs.oracle.com/javase/8/docs/api/java/util/Random.html) have it return a random int between 1 and 6
 * Add a array of Properties
-* Method to buy property that takes in an int for price and a Property for the property purchased
-	* decrement the money of the player by the price
-	* add the property to the array of properties
-	* set the property to owned
+* Method to buy Property that takes in an int for price and a Property for the Property purchased
+	* decrement the money of the Player by the price
+	* add the Property to the array of properties
+	* set the Property to owned
 
 ## Resources
-* [Github Repo](https://github.com/tiy-lv-java-2016-06/monopoly)
+* [Github Repo](https://github.com/tiy-lv-java-2016-06/Property)
 
