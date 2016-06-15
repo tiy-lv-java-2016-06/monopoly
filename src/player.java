@@ -12,7 +12,7 @@ public class Player {
         this.token = token;
     }
 
-    public int bePoor(int sentMoney){
+    public static int bePoor(int sentMoney){
         this.money = this.money - sentMoney;
         return this.money;
     }
